@@ -1,3 +1,8 @@
+/*
+ * The canonical minimal example, use the default clock
+ * tree and blink USER LED #1 (connected to PJ13).
+ * The simple delay gives about a 6 hz blink.
+ */
 #include <stdint.h>
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/stm32/gpio.h>
